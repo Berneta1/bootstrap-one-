@@ -1,0 +1,30 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    color: #707070;
+  }
+.container-fluid {
+      background-color:#28a745;
+  }
+.card {
+    margin: 2rem;
+}
+.card-footer{ 
+    display: flex; 
+    justify-content: end;}
+.container {
+    display: grid; 
+    grid-template-columns: repeat(auto-fit,400px);
+    object-fit:cover;
+  }
+
+section{ background-color: #28a745;
+    margin: 2rem;
+    width:95%;} 
+.form-control {margin:auto;
+}
+.mb-3 h5 {color:white; 
+    display:flex;
+    justify-content: center;
+}
+footer{text-align: center;}
